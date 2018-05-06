@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Functional programming is finally a cool kid!
+title: "Functional programming is finally a cool kid!"
 date: 2016-03-14
 ---
 
