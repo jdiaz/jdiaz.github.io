@@ -1,0 +1,5 @@
+name: Jose R. Diaz
+markdown: kramdown
+
+
+permalink: /blog/:year/:month/:day/:title
