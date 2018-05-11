@@ -4,7 +4,7 @@ title: "Functional programming is finally a cool kid!"
 date: 2016-03-14
 ---
 
-![inmmutable list image](functionalProgrammingArt.png)
+![inmmutable list image](/img/functionalProgrammingArt.png)
 
 It may not be *mainstream*, but functional programming seems to be becoming increasingly popular. Of course, as with anything, it could be also a matter of perception... or is it? At least it appears so, considering the updates, languages and features used in some of today's popular software projects.
 
