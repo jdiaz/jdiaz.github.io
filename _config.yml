@@ -3,4 +3,11 @@ markdown: kramdown
 
 permalink: /blog/:year/:month/:day/:title
 
-linenos: true
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+  syntax_highlighter_opts:
+    css_class: 'highlight'
