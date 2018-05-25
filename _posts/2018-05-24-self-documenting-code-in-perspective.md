@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Self Documenting Code in Perspective"
+title: "Self-documenting code in perspective"
 date: 2018-05-24
 ---
 
@@ -8,13 +8,13 @@ For while, I've been meaning to write down my observations on documentation and 
 
 By contrast, in school, professors teach and praise well documented code. But what exactly is well document code? Does adding long winded descriptions in block comments on your classes and methods suffice? Or, Is it creating a wiki page for that library you just wrote?
 
-To me, documentation used to mean all of the above. It meant documenting classes in description blocks, params of untyped languages, and of course writing wikis. However, after some time in the industry, I've grasped what other developers meant by *self documenting code*.
+To me, documentation used to mean all of the above. It meant documenting classes in description blocks, params of untyped languages, and of course writing wikis. However, after some time in the industry, I've grasped what other developers meant by *self-documenting code*.
 
-Self documenting code is really a product of the realities of software engineering. In the real world, teams sprint towards coding business requirements. They do so often and iteratively as requirements and needs change with time. For said reasons, its logical to conclude that you, as a a developer, should not invest time writing long winded comment blocks or large wikis on a feature or section of code that will change rapidly tomorrow. Seasoned engineers know this and, to safe guard their time, they make sure they write readable source code.
+Self-documenting code is really a product of the realities of software engineering. In the real world, teams sprint towards coding business requirements. They do so often and iteratively as requirements and needs change with time. For said reasons, its logical to conclude that you, as a a developer, should not invest time writing long winded comment blocks or large wikis on a feature or section of code that will change rapidly tomorrow. Seasoned engineers know this and, to safe guard their time, they make sure they write readable source code.
 
 This could be one of the reasons **python** is so [loved](https://insights.stackoverflow.com/survey/2018/) among developers. Python provides an english-like syntax that lends itself well to reading.
 
-Since developers will spend more time [reading code than writing it](https://www.goodreads.com/quotes/835238-indeed-the-ratio-of-time-spent-reading-versus-writing-is). It seems only logical then that the documentation portion of the task be left to reading the source code and not opening up a different file. That is to say, the source code should be most, if not, all you need to understand what the code is doing. This is an art form in it self. Why? Because writing self document code involves the one thing developers are notoriously bad at: [naming things](http://hilton.org.uk/blog/why-naming-things-is-hard). Given than naming things is hard, writing self documenting code can be as well.
+Since developers will spend more time [reading code than writing it](https://www.goodreads.com/quotes/835238-indeed-the-ratio-of-time-spent-reading-versus-writing-is). It seems only logical then that the documentation portion of the task be left to reading the source code and not opening up a different file. That is to say, the source code should be most, if not, all you need to understand what the code is doing. This is an art form in itself. Why? Because writing self-documenting code involves the one thing developers are notoriously bad at: [naming things](http://hilton.org.uk/blog/why-naming-things-is-hard). Given than naming things is hard, writing self-documenting code can be as well.
 
 Below I'll illustrate visually the impact of self-documenting code in **Java**. Before, I get asked, I chose **Java** because its a strong & statically typed wide spread mainstream language. Note, that if self-documenting code is is important for statically typed languages like **Java**, its even more important on dynamically typed languages. Specifically, because these types of languages (i.e. **JavaScript**, **Python**) usually do not expose their type system to the programmer which provides useful information about your program. Thus, putting even more pressure, in my opinion, to name things clearly and structure your code correctly.
 
@@ -41,9 +41,8 @@ final class Utils {
   static List<Person> filterAdults(List<Person> list) {
 
    List<Person> names = new ArrayList<>();
-
    for (Person p : list) {
-     if (p.age >= AGE) { // Check if age is 18
+     if (p.age >= AGE) { // Check if age is/over 18
       names.add(p);
      }
    }
@@ -71,11 +70,9 @@ class Person {
 }
 
 final class PeopleUtils {
-
   static List<Person> filterAdults(List<Person> people) {
 
    List<Person> adults = new ArrayList<>();
-
    for (Person person : people) {
      if (person.isAdult()) {
        adults.add(person);
@@ -115,7 +112,6 @@ class Person {
 }
 
 final class PeopleUtils {
-
   public List<Person> filterAdults(List<Person> people) {
     return people
       .toStream()
@@ -134,4 +130,4 @@ From previous comparisons, we can derive how to write self-documenting code.
 
 Now, as a English as a Second Language (ESL) speaker myself, writing readable source code can be a two step approach as one thinks in a different language and translates words. Although, I mostly think in English now a days, when writing / reading code, speaking can sometimes still take the virtual machine approach xD. Nevertheless, the more you practice and pay attention to phenomenon that is naming things in english, the better you will get. English is the [official computing language](https://en.wikipedia.org/wiki/English_in_computing) and therefore is critical you learn the basics such that it translates to your code. Specially, if you intend to work in the U.S. labor market.
 
-In summary, writing self documenting code frees you, as a the author of code, from requiring excessive documentation blocks in your files, if any at all. That is not to say that comments should never be used. However, self-documenting code can save you time energy when maintaining code as it would read closer to English. Further, it does not mean you have to away with wikis. But, they can be left for more high level functionality aspects of a system. I've outlined steps that will steer other developers into hopefully writing more readable source code.
+In summary, writing self-documenting code frees you, as a the author of code, from requiring excessive documentation blocks in your files, if any at all. That is not to say that comments should never be used. However, self-documenting code can save you time energy when maintaining code as it would read closer to English. Further, it does not mean you have to away with wikis. But, they can be left for more high level functionality aspects of a system. I've outlined steps that will steer other developers into hopefully writing more readable source code.

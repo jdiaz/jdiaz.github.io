@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The End of Programming Language Religions"
+title: "The end of programming language religions"
 date: 2016-01-11
 ---
 
