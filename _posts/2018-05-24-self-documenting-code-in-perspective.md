@@ -21,7 +21,7 @@ Below I'll illustrate visually the impact of self-documenting code in **Java**. 
 Compare the following snippets of code and decide which one would you rather encounter when reading code.
 
 **Not Self-documenting:**
-```java
+~~~ java
 ...
 class Person {
   int age;
@@ -51,14 +51,14 @@ final class Utils {
    return names;
   }
 }
-```
+~~~
 The above in plain english would read:
 *"I have a Utils class which has a AGE variable set to eighteen. Also, a static function which filters adults from a list of persons. I declare a variable named names. I iterate over the list of person's named list and call it p. If p's age is greater than or equal to variable AGE, then I add it to the names list. Return names"*
 
 Notice how the code does not flow like an english paragraph largely because of poor naming choices. Additionally, notice how the code contains inline comments to clarify pieces of code that, given a proper name or using a different code structure, would've been evident.
 
 **Self-documenting:**
-```java
+``` java
 ...
 class Person {
   static final int ADULT_AGE = 18;

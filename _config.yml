@@ -1,8 +1,47 @@
-name: Jose R. Diaz
-markdown: kramdown
+title: Software as a Mindset
+author: jdiaz
+email:
+description: > # this means to ignore newlines until "twitter_username:"
+  Software as a mindset is Jose R. Diaz's tech blog. Topics include: Algorithms,
+  Software Engineering, Web, AI, Machine Learning, Object Oriented Programming,
+  Functional Programming, Distributed Systems etc.
 
-kramdown:
-  input: GFM
-  hard_wrap: false
+# social links
+twitter_username: __jdiaz
+github_username:  jdiaz
+rss: rss
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+linkedin_username: jrdpalacios
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# googleplus_username: +jekyll
 
-permalink: /blog/:year/:month/:day/:title
+# Mastodon instances
+# mastodon:
+# - username: jekyll
+#   instance: example.com
+# - username: jekyll2
+#   instance: example.com
+
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.html
+
+# Build settings
+theme: minima
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
