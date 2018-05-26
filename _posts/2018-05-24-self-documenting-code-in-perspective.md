@@ -16,7 +16,7 @@ Since developers will spend more time [reading code than writing it](https://www
 ![choose-variable-name](../../../assets/ChooseVariableName.png){:class="img-responsive"}
 Given than naming things is hard, writing self-documenting code can be as well.
 
-Below I'll illustrate visually the impact of self-documenting code in **Java**. Before, I get asked, I chose **Java** because its a strong & statically typed wide spread mainstream language. Note, that if self-documenting code is important for statically typed languages like **Java**, its even more important on dynamically typed languages. Specifically, because these types of languages (i.e. **JavaScript**, **Python**) usually do not expose their type system to the programmer which provides useful information about your program. Thus, putting even more pressure, in my opinion, to name things clearly and structure your code correctly.
+Below I'll illustrate visually the impact of self-documenting code in **Java**. Before I get asked, I chose **Java** because its a strong & statically typed wide spread mainstream language. Note, that if self-documenting code is important for statically typed languages like **Java**, its even more important on dynamically typed languages. These types of languages (i.e. **JavaScript**, **Python**) usually do not expose their type system to the programmer which provides useful information about your program. Thus, putting even more pressure, in my opinion, to name things clearly and structure your code correctly.
 
 Compare the following snippets of code and decide which one would you rather encounter when reading code.
 
