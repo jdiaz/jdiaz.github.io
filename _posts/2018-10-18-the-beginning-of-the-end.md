@@ -16,7 +16,7 @@ Further, You may not:
 -    use the Programs for any data processing or any commercial, production, or internal business purposes other than developing, testing, prototyping, and demonstrating your Application;
 ```
 
-There it is, pay up if you want to use JDK 11 or greater on for your commercial systems. Thats right, the official JDK implementation by Oracle is now pay to use (commercially). If you don't want to participate in the endless commercial subscription model to run your system you must embrace the sometimes has been referred to as [not-production-ready] in the past: (https://stackoverflow.com/questions/9344243/openjdk-ready-for-production) [OpenJDK](https://openjdk.java.net/). 
+There it is, pay up if you want to use JDK 11 or greater on for your commercial systems. Thats right, the official JDK implementation by Oracle is now pay to use (commercially). If you don't want to participate in the endless commercial subscription model to run your system you must embrace the sometimes has been referred to as [not-production-ready in the past](https://stackoverflow.com/questions/9344243/openjdk-ready-for-production), the [OpenJDK](https://openjdk.java.net/). 
 
 ![OpenJDK](../../../assets/openjdk_banner.png){:class="img-responsive"}
 
