@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Is it the beginning of the end of Java dominance?"
+title: "The beginning of the end of Java dominance?"
 date: 2018-10-18
 ---
 
