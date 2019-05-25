@@ -64,7 +64,7 @@ class Person {
   String name;
 
   boolean isAdult() {
-    return age >= ADULT_AGE ? true : false;
+    return age >= ADULT_AGE;
   }
 }
 
