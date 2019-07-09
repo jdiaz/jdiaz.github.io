@@ -8,12 +8,13 @@ I'm passionate about lots of things software & tech. I'm also a hobbyist bassist
 Since this site is mainly focused on my endeavours in tech, I'll keep this section geeky.
 
 I have Computer Engineering background focused on Software Engineering. The below are my current areas of interest:
-  * Distributed Systems (Paxos, Raft etc.)
-  * Data Storage
-  * Progressive Web Apps + EcmaScript + Web Assembly
+  * Interpreters, Compilers, Programming language design
+  * Distributed Systems / Computing
+  * Data Storage 
+  * Progressive Web Apps, Web Assembly
   * Algorithms
   * Tech education
-  * Machine Learning + Recommender Systems
+  * Machine Learning
 
 I favor statically typed programming languages for working in large teams. However, I do enjoy type inference, specially in declaring local variables.
 Generics, are great. No, Functional Programming (FP) is not just for academics. Careful, though, this doesn't mean Object Oriented Programming (OOP) is bad and we
